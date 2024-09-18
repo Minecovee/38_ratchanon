@@ -1,0 +1,19 @@
+docker -version
+docker ps 
+docker run hello-world
+
+docker run nginx
+docker start nginx //start container
+docker stop nginx //stop container
+docker rm nginx //remove container
+
+docker system prune //delete all image 
+
+
+docker exec id container ls //check ls
+docker exec -it id container sh
+docker exec -it id container bash
+
+docker run -p 8800:80 nginx //localhost:8800
+
+
